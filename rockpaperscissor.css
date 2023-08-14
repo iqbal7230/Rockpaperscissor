@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(227, 246, 213);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.game {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    margin-top: 5%;
+
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    /* box-shadow: 6px black; */
+    box-shadow: 1px 1px 38px -9px rgba(0,0,0,0.79);
+-webkit-box-shadow: 1px 1px 38px -9px rgba(0,0,0,0.79);
+-moz-box-shadow: 1px 1px 38px -9px rgba(0,0,0,0.79);
+
+
+}
+
+.button-img {
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 60px;
+    margin-right: 15px;
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.img-icon {
+    height: 60px;
+}
+
+.result {
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.moves {
+    font-size: 20px;
+}
+
+.score {
+    font-size: 20px;
+}
+
+.reset-button {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    display: inline;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+}
+.reset-button:active{
+    transform: translateY(-2px);
+  }
+
+.Auto-button {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    display: inline;
+    margin-left: 20px; ;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+}
+
+.Auto-button:active{ 
+    transform: translateY(-2px);
+}
+
